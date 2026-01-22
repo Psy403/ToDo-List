@@ -1,0 +1,362 @@
+/* =====================================================
+   GLOBAL COLOR LIBRARY
+   Author: Ayush
+   Usage: Import this file before other CSS files
+   ===================================================== */
+
+:root {
+
+  /* ===============================
+     NEUTRAL COLORS (20)
+     =============================== */
+  --white: #ffffff;
+  --black: #000000;
+  --off-white: #fdfdfd;
+  --ivory: #fffff0;
+  --light-gray: #f2f2f2;
+  --gray: #cccccc;
+  --medium-gray: #999999;
+  --dark-gray: #666666;
+  --charcoal: #333333;
+  --jet-black: #111111;
+  --smoke: #eeeeee;
+  --ash: #b2b2b2;
+  --slate-gray: #708090;
+  --cool-gray: #8c92ac;
+  --warm-gray: #a89f91;
+  --stone: #d1d1d1;
+  --fog: #e6e6e6;
+  --paper: #fafafa;
+  --ink: #222222;
+  --ink-black: #04080fff;
+  --shadow: #444444;
+  --shadow-grey: #242124;
+  --beige: #f2fbe0ff;
+  --darkcharcoal: #323232;
+  --onyx: #111111;
+  --eggshell: #F4F1DE;
+  --twilight-indigo: #3D405B;
+  
+
+    /* ===============================
+     Brown FAMILY 
+     =============================== */
+   --brown-50: #EFEBE9;
+   --brown-100: #D7CCC8;
+   --brown-200: #BCAAA4;
+   --brown-300: #A1887F;
+   --brown-400: #8D6E63;
+   --brown-500: #795548;
+   --brown-600: #6D4C41;
+   --brown-700: #5D4037;
+   --brown-800: #4E342E;
+   --brown-900: #3E2723;
+
+
+  /* ===============================
+     Grey FAMILY 
+     =============================== */
+   --grey-50: #FAFAFA;
+   --grey-100: #F5F5F5;
+   --grey-200: #EEEEEE;
+   --grey-300: #E0E0E0;
+   --grey-400: #BDBDBD;
+   --grey-500: #9E9E9E;
+   --grey-600: #757575;
+   --grey-700: #616161;
+   --grey-800: #424242;
+   --grey-900: #212121;
+
+   /* ===============================
+     BLUEGRAY FAMILY 
+     =============================== */
+   --blue-grey-50: #ECEFF1;
+   --blue-grey-100: #CFD8DC;
+   --blue-grey-200: #B0BEC5;
+   --blue-grey-300: #90A4AE;
+   --blue-grey-400: #78909C;
+   --blue-grey-500: #607D8B;
+   --blue-grey-600: #546E7A;
+   --blue-grey-700: #455A64;
+   --blue-grey-800: #37474F;
+   --blue-grey-900: #263238;
+
+
+
+   /* ===============================
+     CYAN FAMILY 
+     =============================== */
+   --cyan-50: #E0F7FA;
+   --cyan-100: #B2EBF2;
+   --cyan-200: #80DEEA;
+   --cyan-300: #4DD0E1;
+   --cyan-400: #26C6DA;
+   --cyan-500: #00BCD4;
+   --cyan-600: #00ACC1;
+   --cyan-700: #0097A7;
+   --cyan-800: #00838F;
+   --cyan-900: #006064;
+
+   /* ===============================
+     TEAL FAMILY 
+     =============================== */
+--teal-50: #E0F2F1;
+--teal-100: #B2DFDB;
+--teal-200: #80CBC4;
+--teal-300: #4DB6AC;
+--teal-400: #26A69A;
+--teal-500: #009688;
+--teal-600: #00897B;
+--teal-700: #00796B;
+--teal-800: #00695C;
+--teal-900: #004D40;
+
+   /* ===============================
+     LIGHTGREEN FAMILY 
+     =============================== */
+--light-green-50: #F1F8E9;
+--light-green-100: #DCEDC8;
+--light-green-200: #C5E1A5;
+--light-green-300: #AED581;
+--light-green-400: #9CCC65;
+--light-green-500: #8BC34A;
+--light-green-600: #7CB342;
+--light-green-700: #689F38;
+--light-green-800: #558B2F;
+--light-green-900: #33691E;
+
+
+  /* ===============================
+     RED FAMILY (25)
+     =============================== */
+  --red-50: #ffe5e5;
+  --red-100: #ffcccc;
+  --red-200: #ff9999;
+  --red-300: #ff6666;
+  --red-400: #ff3333;
+  --red-500: #ff0000;
+  --red-600: #e60000;
+  --red-700: #cc0000;
+  --red-800: #b30000;
+  --red-900: #990000;
+  --crimson: #dc143c;
+  --scarlet: #ff2400;
+  --ruby: #9b111e;
+  --wine: #722f37;
+  --brick: #b22222;
+  --rose-red: #c21e56;
+  --blood-red: #8a0303;
+  --cherry: #de3163;
+  --maroon: #800000;
+  --rust: #b7410e;
+  --coral-red: #ff4040;
+  --salmon-red: #fa8072;
+  --berry: #8d021f;
+  --fire-red: #b22222;
+  --oxide-red: #6e0902;
+
+  /* ===============================
+     ORANGE FAMILY (20)
+     =============================== */
+  --orange-50: #fff1e6;
+  --orange-100: #ffd9b3;
+  --orange-200: #ffbf80;
+  --orange-300: #ffa64d;
+  --orange-400: #ff8c1a;
+  --orange-500: #ff7a00;
+  --orange-600: #e66f00;
+  --orange-700: #cc6200;
+  --orange-800: #b35600;
+  --orange-900: #994a00;
+  --peach: #ffdab9;
+  --burnt-peach: #E07A5F;
+  --apricot: #fbceb1;
+  --tangerine: #f28500;
+  --pumpkin: #ff7518;
+  --amber: #ffbf00;
+  --carrot: #ed9121;
+  --burnt-orange: #cc5500;
+  --papaya: #ff8c42;
+  --sunset-orange: #fd5e53;
+  --copper-orange: #cb6d51;
+
+  /* ===============================
+     YELLOW FAMILY (20)
+     =============================== */
+  --yellow-50: #fffde7;
+  --yellow-100: #fff9c4;
+  --yellow-200: #fff59d;
+  --yellow-300: #fff176;
+  --yellow-400: #ffee58;
+  --yellow-500: #ffeb3b;
+  --yellow-600: #fdd835;
+  --yellow-700: #fbc02d;
+  --yellow-800: #f9a825;
+  --yellow-900: #f57f17;
+  --lemon: #fff44f;
+  --gold: #ffd700;
+  --mustard: #ffdb58;
+  --banana: #ffe135;
+  --sunflower: #ffc512;
+  --butter: #fff1a8;
+  --corn: #fbec5d;
+  --sand: #e2ca76;
+  --honey: #ffc30b;
+  --saffron: #f4c430;
+  --apricot-cream:#f2cc8f;
+
+  /* ===============================
+     GREEN FAMILY (25)
+     =============================== */
+  --green-50: #e8f5e9;
+  --green-100: #c8e6c9;
+  --green-200: #a5d6a7;
+  --green-300: #81c784;
+  --green-400: #66bb6a;
+  --green-500: #4caf50;
+  --green-600: #43a047;
+  --green-700: #388e3c;
+  --green-800: #2e7d32;
+  --green-900: #1b5e20;
+  --mint: #98ff98;
+  --emerald: #50c878;
+  --olive: #808000;
+  --lime: #00ff00;
+  --forest: #228b22;
+  --jade: #00a86b;
+  --sea-green: #2e8b57;
+  --pine: #01796f;
+  --fern: #4f7942;
+  --sage: #9dc183;
+  --moss: #8a9a5b;
+  --basil: #32612d;
+  --avocado: #568203;
+  --wasabi: #a1c935;
+  --chartreuse: #7fff00;
+  --sage-green: #669d31ff;
+  --muted-teal:#81b29a;
+
+  /* ===============================
+     BLUE FAMILY (30)
+     =============================== */
+  --blue-50: #e3f2fd;
+  --blue-100: #bbdefb;
+  --blue-200: #90caf9;
+  --blue-300: #64b5f6;
+  --blue-400: #42a5f5;
+  --blue-500: #2196f3;
+  --blue-600: #1e88e5;
+  --blue-700: #1976d2;
+  --blue-800: #1565c0;
+  --blue-900: #0d47a1;
+  --sky-blue: #87ceeb;
+  --baby-blue: #89cff0;
+  --steel-blue: #4682b4;
+  --royal-blue: #4169e1;
+  --navy: #000080;
+  --midnight-blue: #191970;
+  --ice-blue: #e0f7fa;
+  --powder-blue: #b0e0e6;
+  --ocean-blue: #006994;
+  --teal-blue: #367588;
+  --denim: #1560bd;
+  --cerulean: #007ba7;
+  --aqua: #00ffff;
+  --cyan: #00bcd4;
+  --glacier: #71a6d2;
+  --storm-blue: #4f6d7a;
+  --ink-blue: #1c2331;
+  --peacock-blue: #005f6a;
+  --lapis: #26619c;
+  --electric-blue: #7df9ff;
+  --blue-slate: #19647eff;
+  --yankee-blue: #252A41;
+
+  /* ===============================
+     PURPLE / PINK FAMILY (30)
+     =============================== */
+  --purple-50: #f3e5f5;
+  --purple-100: #e1bee7;
+  --purple-200: #ce93d8;
+  --purple-300: #ba68c8;
+  --purple-400: #ab47bc;
+  --purple-500: #9c27b0;
+  --purple-600: #8e24aa;
+  --purple-700: #7b1fa2;
+  --purple-800: #6a1b9a;
+  --purple-900: #4a148c;
+  --lavender: #e6e6fa;
+  --brightlavender: #bf94e4;
+  --plum: #dda0dd;
+  --orchid: #da70d6;
+  --magenta: #ff00ff;
+  --dark-magenta: #7f2982ff;
+  --fuchsia: #ff77ff;
+  --rose-pink: #ff66cc;
+  --blush: #ffb6c1;
+  --bubblegum: #ffc1cc;
+  --mauve: #e0b0ff;
+  --wine-purple: #5d1451;
+  --grape: #6f2da8;
+  --amethyst: #9966cc;
+  --lilac: #c8a2c8;
+  --iris: #5a4fcf;
+  --thistle: #d8bfd8;
+  --mulberry: #70193d;
+  --heather: #9e7bb5;
+  --periwinkle: #ccccff;
+  --royal-purple: #7851a9;
+  
+    
+  /* ===============================
+   ACCENT COLORS (Use them for: Buttons, Links, Highlights, Icons, Focus states)
+   =============================== */
+    --accent-red: #e63946;
+    --accent-crimson: #c1121f;
+    --accent-coral: #ff6f61;
+    --accent-orange: #f77f00;
+    --accent-amber: #ffb703;
+
+    --accent-yellow: #ffd166;
+    --accent-lime: #9ef01a;
+    --accent-green: #2a9d8f;
+    --accent-emerald: #00b894;
+    --accent-mint: #52b788;
+
+    --accent-teal: #06d6a0;
+    --accent-cyan: #4cc9f0;
+    --accent-sky: #48cae4;
+    --accent-blue: #3a86ff;
+    --accent-navy: #1d3557;
+
+    --accent-indigo: #3f37c9;
+    --accent-violet: #7209b7;
+    --accent-purple: #9b5de5;
+    --accent-lavender: #bf94e4;
+    --accent-magenta: #7f2982;
+
+    --accent-pink: #ff5d8f;
+    --accent-rose: #ff4d6d;
+    --accent-blush: #f28482;
+    --accent-peach: #ffb5a7;
+    --accent-salmon: #fa8072;
+
+    --accent-brown: #8d5524;
+    --accent-caramel: #c68642;
+    --accent-gold: #d4af37;
+    --accent-bronze: #cd7f32;
+    --accent-copper: #b87333;
+
+    --accent-charcoal: #343a40;
+    --accent-slate: #495057;
+    --accent-steel: #6c757d;
+    --accent-smoke: #adb5bd;
+    --accent-graphite: #212529;
+
+    --accent-neon-green: #39ff14;
+    --accent-neon-blue: #1f51ff;
+    --accent-neon-pink: #ff1ead;
+    --accent-electric-purple: #8f00ff;
+    --accent-electric-cyan: #00ffff;
+
+}
