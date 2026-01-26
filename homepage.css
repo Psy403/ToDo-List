@@ -63,13 +63,13 @@ h1 {
   width: 100%;
   height: 200%;
   background-color: var(--eggshell);
-  position:absolute;
+  position: absolute;
 }
 
 .task-item {
   display: flex;
   align-items: center;
-  position:sticky;
+  position: relative;
   padding: 20px;
   background: white;
   border-radius: 18px;
@@ -81,7 +81,7 @@ h1 {
 }
 
 .task-item:hover {
-  box-shadow: 8px 6px 20px rgb(48 51 92 / 23%);;
+  box-shadow: 8px 6px 20px rgb(48 51 92 / 23%);
   transform: translateY(-2px);
 }
 
@@ -98,8 +98,7 @@ h1 {
   background: white;
 }
 
-
-.close-btn{
+.close-btn {
   background-color: transparent;
   color: royalblue;
   text-decoration: none;
@@ -107,15 +106,13 @@ h1 {
   font-size: 30px;
   border-radius: 5px;
   margin-left: auto;
-
 }
 
-.close-btn:hover{
-  cursor:pointer;
+.close-btn:hover {
+  cursor: pointer;
 }
 
-
-.edit{
+.edit {
   background-color: transparent;
   color: royalblue;
   text-decoration: none;
@@ -124,7 +121,35 @@ h1 {
   margin-left: 15px;
 }
 
-.edit:hover{
-  cursor:pointer;
+.edit:hover {
+  cursor: pointer;
 }
 
+.edited-text {
+  width: 50%;
+  position: absolute;
+  font-size: 25px;
+  font-family: "Poppin", sans-serif;
+  margin: 13px 100px 12px 40px;
+
+
+}
+
+
+.savebutton{
+  position: absolute;
+  top: 0;
+  right: 50px;
+  bottom: 0;
+  left: 50px;
+  background-color: var(--yankee-blue);
+  
+}
+
+.input-text {
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  width: 50%;
+}

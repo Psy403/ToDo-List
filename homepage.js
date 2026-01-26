@@ -4,37 +4,38 @@ const input = document.getElementById('task');
 
 
 function addtask() {
-    const  taskText = input.value.trim();
-    if (taskText == ''){
+    const taskText = input.value.trim();
+    if (taskText == '') {
         alert("Sorry the task input field can't be empty");
-         return false;
+        return false;
     }
-    
+
     const taskItems = document.createElement('li');
     taskItems.className = 'task-item';
     list.appendChild(taskItems);
-    
+
     const checkbox = document.createElement('input');
     checkbox.type = 'checkbox';
     checkbox.name = 'box'
-    
-    checkbox.addEventListener('change', function(){
-        if(this.checked){
+
+    checkbox.addEventListener('change', function () {
+        if (this.checked) {
             taskItems.classList.add('completed');
         }
-        else{
+        else {
             taskItems.classList.remove('completed');
         }
     })
     taskItems.appendChild(checkbox);
-    
-    
-    
-    const spanText = document.createElement('span');
+
+
+
+    const spanText = document.createElement('input');
     spanText.className = 'input-text';
-    spanText.textContent = taskText;
+    spanText.setAttribute('name', 'tasktodo');
+    spanText.value = taskText;
     taskItems.appendChild(spanText);
-    
+
     input.value = '';
 
 
@@ -43,23 +44,33 @@ function addtask() {
     closee.className = 'close-btn';
     closee.textContent = 'X'
     taskItems.appendChild(closee);
-    
-    closee.addEventListener('click', function(){
+
+    closee.addEventListener('click', function () {
         list.removeChild(taskItems);
     });
 
 
-    // const edit = document.createElement('button');
-    // edit.className = 'edit'
-    // edit.textContent = 'Edit'
-    // edit.type = 'input'
-    // taskItems.appendChild(edit);
-    
-    
-    // edit.addEventListener('click', function(){
+    const edit = document.createElement('button');
+    edit.className = 'edit';
+    edit.textContent = 'Edit';
+    taskItems.appendChild(edit);
+
+    edit.addEventListener('click', function () {
+        // const edittext = document.querySelector('.edit-text')
+        // edittext.
         
         
-    // });
+        // const edittext = document.createElement('input');
+        // edittext.className = 'edited-text';
+        // edittext.setAttribute('name', 'edit')
+        // edittext.value = spanText.textContent;
+        // taskItems.appendChild(edittext);
+        
+        // const savebtn = document.createElement('button');
+        // savebtn.className = 'savebutton';
+        // savebtn.textContent = 'save'
+        // edittext.appendChild(savebtn);
+    });
 
 }
 
