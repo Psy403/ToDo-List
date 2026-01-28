@@ -42,7 +42,7 @@ function addtask() {
 
     const closee = document.createElement('button');
     closee.className = 'close-btn';
-    closee.textContent = 'X'
+    closee.textContent = 'X';
     taskItems.appendChild(closee);
 
     closee.addEventListener('click', function () {
@@ -56,23 +56,28 @@ function addtask() {
     taskItems.appendChild(edit);
 
     edit.addEventListener('click', function () {
-        // const edittext = document.querySelector('.edit-text')
-        // edittext.
+        spanText.focus();
+        spanText.select();
         
-        
-        // const edittext = document.createElement('input');
-        // edittext.className = 'edited-text';
-        // edittext.setAttribute('name', 'edit')
-        // edittext.value = spanText.textContent;
-        // taskItems.appendChild(edittext);
-        
-        // const savebtn = document.createElement('button');
-        // savebtn.className = 'savebutton';
-        // savebtn.textContent = 'save'
-        // edittext.appendChild(savebtn);
+        taskItems.appendChild(savebtn);
+
+
     });
 
 }
 
 add.addEventListener('click', addtask);
 
+
+// edittext.
+
+
+// const edittext = document.createElement('input');
+// edittext.className = 'edited-text';
+// edittext.setAttribute('name', 'edit')
+// edittext.value = spanText.textContent;
+// taskItems.appendChild(edittext);
+
+const savebtn = document.createElement('button');
+savebtn.className = 'savebutton';
+savebtn.textContent = 'save';

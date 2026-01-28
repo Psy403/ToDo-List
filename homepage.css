@@ -138,12 +138,21 @@ h1 {
 
 .savebutton{
   position: absolute;
-  top: 0;
-  right: 50px;
+  top: 1.38rem;
+  right: 5rem;
   bottom: 0;
-  left: 50px;
+  left: 40.3rem;
+  width: 45px;
+  height: 30px;
   background-color: var(--yankee-blue);
-  
+  font-family: "Poppins", sans-serif;
+  color: var(--eggshell);
+  font-size: 15px;
+  border-radius: 4px;
+}
+
+.savebutton:hover{
+  cursor: pointer;
 }
 
 .input-text {
