@@ -26,10 +26,10 @@ function addtask() {
             taskItems.classList.remove('completed');
         }
     })
+    
     taskItems.appendChild(checkbox);
-
-
-
+    
+    
     const spanText = document.createElement('input');
     spanText.className = 'input-text';
     spanText.setAttribute('name', 'tasktodo');
@@ -58,11 +58,28 @@ function addtask() {
     edit.addEventListener('click', function () {
         spanText.focus();
         spanText.select();
-        
         taskItems.appendChild(savebtn);
 
 
     });
+
+
+console.log(spanText);
+
+    savebtn.addEventListener('click', function () {
+        const newtext = document.getElementsByClassName('input-text');
+        newtext.value = spanText;
+
+        console.log(newtext);
+    });
+
+
+
+
+
+
+
+
 
 }
 

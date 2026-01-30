@@ -21,11 +21,11 @@ body {
 }
 
 h1 {
-  font-family: "Poppins", sens-serief;
+  font-family: "Poppins", sans-serif;
   color: var(--muted-teal);
   position: absolute;
-  left: 550px;
-  top: 140px;
+  left: 510px;
+  top: 155px;
   font-size: 50px;
 }
 
@@ -98,6 +98,39 @@ h1 {
   background: white;
 }
 
+/* Checkbox hover state */
+.task-item input[type="checkbox"]:hover {
+  border-color: #a8b5ff;
+}
+
+/* Checkbox checked state - filled circle with gradient */
+.task-item.completed input[type="checkbox"]:checked {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-color: #667eea;
+}
+
+/* Checkmark inside checkbox */
+.task-item.completed input[type="checkbox"]:checked::after {
+  content: "✓";
+  position: absolute;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.task-item.completed  {
+  text-decoration: line-through;
+  color: #a1a1a6;
+}
+
+.task-item.completed {
+  background: #fafafa;
+  border-color: #f0f0f0;
+}
+
 .close-btn {
   background-color: transparent;
   color: royalblue;
@@ -131,12 +164,9 @@ h1 {
   font-size: 25px;
   font-family: "Poppin", sans-serif;
   margin: 13px 100px 12px 40px;
-
-
 }
 
-
-.savebutton{
+.savebutton {
   position: absolute;
   top: 1.38rem;
   right: 5rem;
@@ -149,9 +179,10 @@ h1 {
   color: var(--eggshell);
   font-size: 15px;
   border-radius: 4px;
+  border: none;
 }
 
-.savebutton:hover{
+.savebutton:hover {
   cursor: pointer;
 }
 
